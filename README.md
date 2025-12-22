@@ -5,8 +5,7 @@ The project covers the complete analytics lifecycle: data loading and cleaning i
 
 #### Power BI Dashboard Screenshot
 
-![Power BI Dashboard](https://github.com/abhay01pandey/Customer-Shopping-Behavior-Analysis/blob/333963aa5746e71627952fbd40206e5d85c78d45/power_bi_dashboard.png))
-
+![Power BI Dashboard](https://github.com/abhay01pandey/Customer-Shopping-Behavior-Analysis/blob/333963aa5746e71627952fbd40206e5d85c78d45/power_bi_dashboard.png)
 ---
 
 ## Dataset
