@@ -38,7 +38,6 @@ WHERE shipping_type IN ('Standard', 'Express')
 GROUP BY shipping_type;
 
 -- Q5. Do subscribed customers spend more?
--- Compare average spend and total revenue between subscribers and non-subscribers.
 SELECT
     subscription_status,
     COUNT(customer_id) AS total_customers,
@@ -47,7 +46,6 @@ SELECT
 FROM customer
 GROUP BY subscription_status
 ORDER BY total_revenue DESC, avg_spend DESC;
-
 
 -- Q6. Which 5 products have the highest percentage of purchases with discounts applied?
 SELECT
@@ -62,9 +60,7 @@ GROUP BY item_purchased
 ORDER BY discount_percentage DESC
 LIMIT 5;
 
-
 -- Q7. Segment customers into New, Returning, and Loyal
--- based on number of previous purchases and show count of each segment.
 WITH customer_segments AS (
     SELECT
         customer_id,
@@ -80,7 +76,6 @@ SELECT
     COUNT(*) AS number_of_customers
 FROM customer_segments
 GROUP BY customer_segment;
-
 
 -- Q8. What are the top 3 most purchased products within each category?
 WITH product_rankings AS (
@@ -103,7 +98,6 @@ SELECT
 FROM product_rankings
 WHERE product_rank <= 3;
 
-
 -- Q9. Are customers who are repeat buyers (more than 5 previous purchases)
 -- also likely to subscribe?
 SELECT
@@ -112,7 +106,6 @@ SELECT
 FROM customer
 WHERE previous_purchases > 5
 GROUP BY subscription_status;
-
 
 -- Q10. What is the revenue contribution of each age group?
 SELECT
