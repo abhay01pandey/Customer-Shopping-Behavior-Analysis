@@ -1,7 +1,11 @@
 # Customer-Shopping-Behavior-Analysis
 This project analyzes customer shopping behavior using transactional data from 3,900 purchases across multiple product categories. The goal is to uncover insights into spending patterns, customer segments, product preferences, and subscription behavior to support strategic, data-driven business decisions.
 
-The project covers the complete analytics lifecycle: data loading and cleaning in Python, business analysis using SQL, visualization with Power BI, and insight communication through reports and presentations.
+The project covers the complete analytics lifecycle: data loading and cleaning in Python, business analysis using SQL, visualization with Power BI, and insight communication.
+
+#### Power BI Dashboard Screenshot
+
+![Power BI Dashboard](images/power_bi_dashboard.png)
 
 ---
 
