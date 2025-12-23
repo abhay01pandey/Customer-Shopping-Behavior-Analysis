@@ -105,3 +105,9 @@ An interactive dashboard was built to present insights clearly for business stak
 5. Load the cleaned dataset into MySQL
 6. Execute SQL queries for analysis
 7. Open the Power BI dashboard
+
+---
+
+## Author
+ 
+LinkedIn: www.linkedin.com/in/abhaypandey18
